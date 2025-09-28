@@ -1,9 +1,9 @@
-
+// Movie class
 public class Movie {
 
     private String title;
     private String genre;
-
+//Constructor 
     public Movie() {
     }
 
@@ -13,12 +13,12 @@ public class Movie {
         this.genre = genre.trim();
 
     }
-
-    public void addBook(String title, String genre) {
+// Add Movie Method
+    public void addMovie(String title, String genre) {
         this.genre = genre;
         this.title = title;
     }
-
+// Getters 
     public String getTitle() {
         return title;
     }
@@ -26,7 +26,7 @@ public class Movie {
     public String getGenre() {
         return genre;
     }
-
+// To String method
     @Override
     public String toString() {
         return String.format("" + title, "\" by " + genre);
