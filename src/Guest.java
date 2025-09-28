@@ -8,7 +8,7 @@ public class Guest {
 
     public Guest(String name) {
 
-        this.name = name;
+        this.name = name.trim();
 
     }
 

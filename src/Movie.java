@@ -9,8 +9,8 @@ public class Movie {
 
     public Movie(String title, String genre) {
 
-        this.title = title;
-        this.genre = genre;
+        this.title = title.trim();
+        this.genre = genre.trim();
 
     }
 
